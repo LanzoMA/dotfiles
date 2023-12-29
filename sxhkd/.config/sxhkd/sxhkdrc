@@ -1,0 +1,76 @@
+
+#██╗  ██╗███████╗██╗   ██╗██████╗  ██████╗  █████╗ ██████╗ ██████╗
+#██║ ██╔╝██╔════╝╚██╗ ██╔╝██╔══██╗██╔═══██╗██╔══██╗██╔══██╗██╔══██╗
+#█████╔╝ █████╗   ╚████╔╝ ██████╔╝██║   ██║███████║██████╔╝██║  ██║
+#██╔═██╗ ██╔══╝    ╚██╔╝  ██╔══██╗██║   ██║██╔══██║██╔══██╗██║  ██║
+#██║  ██╗███████╗   ██║   ██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝
+#╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
+#███████╗██╗  ██╗ ██████╗ ██████╗ ████████╗ ██████╗██╗   ██╗████████╗███████╗
+#██╔════╝██║  ██║██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝██║   ██║╚══██╔══╝██╔════╝
+#███████╗███████║██║   ██║██████╔╝   ██║   ██║     ██║   ██║   ██║   ███████╗
+#╚════██║██╔══██║██║   ██║██╔══██╗   ██║   ██║     ██║   ██║   ██║   ╚════██║
+#███████║██║  ██║╚██████╔╝██║  ██║   ██║   ╚██████╗╚██████╔╝   ██║   ███████║
+#╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═════╝    ╚═╝   ╚══════╝
+
+# Poweroff PC
+super + q
+    confirm "Are you sure you want to poweroff?" poweroff
+
+# Reboot PC
+super + r
+    confirm "Are you sure you want to reboot?" reboot
+
+# Lock PC
+super + l
+    slock
+
+# Increase/Decrease Volume
+super + {F2, F3}
+    pactl set-sink-volume @DEFAULT_SINK@ {-5%, +5%}
+
+# Mute Volume
+super + F1
+    pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+# Open App Manager
+super + d
+    apps
+
+# Open st Terminal
+super + t
+    st
+
+# Open lf File Manager
+super + e
+    st -e "lf"
+
+# Open Firefox
+super + f 
+    firefox
+
+# Open VCodium
+super + v
+    code
+
+# Open Newsboat
+super + n
+    st -e "newsboat"
+
+# Open Neomutt
+super + m
+    st -e "neomutt"
+
+# Open Pomotroid
+super + s
+    ~/.config/pomotroid-0.13.0-linux/pomotroid --no-sandbox
+
+# Open Anki
+super + a
+    anki
+
+# Opens textbooks
+super + c
+    st -e gnome-calendar
+
+super + p
+    /opt/pycharm-community-2023.2.1/bin/pycharm.sh
