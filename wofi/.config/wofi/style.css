@@ -1,0 +1,37 @@
+window {
+   font-size: 24px; 
+   font-family: "JetBrains Mono ExtraBold";
+    
+   background-color: transparent;
+   color: white;
+}
+
+#entry {
+    background-color: #1A181A;
+    color: white;
+    
+    padding: 5px;
+}
+
+#entry:selected {
+    background-color: #E5C463;
+}
+
+#text:selected {
+    color: #1A181A;
+}
+
+#input {
+    border: 2px solid #E5C463;
+    border-radius: 30px;
+
+    background-color: #1A181A;
+    color: white;
+
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#img {
+    margin: 0 0.5em;
+}
