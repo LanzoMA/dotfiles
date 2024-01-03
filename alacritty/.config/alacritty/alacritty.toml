@@ -1,6 +1,6 @@
-# Monokai-Charcoal Colorsheme
+# Modified Monokai-Charcoal Colorsheme
 [colors.primary]
-background = '#1a1a1a'
+background = '#232326'
 foreground = '#FFFFFF'
 
 [colors.normal]
@@ -25,17 +25,31 @@ white =   '#f6f6ef'
 
 [window]
 title = "Alacritty"
-opacity = 0.8
+opacity = 1.0
 
 [window.padding]
 x = 10
 y = 10
 
 [font]
-size = 12
+size = 14
 
 [font.normal]
+family = "JetBrains Mono"
 style = "Regular"
 
-[cursor]
-style = "Beam"
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Light Italic" 
+
+[cursor.style]
+shape = "Beam"
+blinking = "Always"
