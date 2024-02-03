@@ -1,2 +1,3 @@
-require "options"
-require "plugins"
+-- My Neovim Config
+
+require("config")
