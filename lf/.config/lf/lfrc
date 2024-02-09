@@ -1,0 +1,28 @@
+set hidden false
+set ignorecase true
+set icons true
+
+cmd touch ${{
+    printf "New Filename: "
+    read file
+    touch $file
+}}
+
+cmd rm ${{
+    printf "Are you sure? "
+    read buffer
+    rm $f
+}}
+
+cmd mkdir ${{
+    printf "New Directory Name: "
+    read directory
+    mkdir $directory
+}}
+
+map a touch
+map x rm
+map D mkdir
+
+map gr cd ~/repos/
+map gs cd ~/dox/school/
