@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 0;        /* border pixel of windows */
+static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const int startwithgaps	    = 1;	    /* 1 means gaps are used by default */
 static const unsigned int gappx     = 15;       /* default gap between windows in pixels */
 static const unsigned int snap      = 32;       /* snap pixel */
@@ -12,12 +12,12 @@ static const char *fonts[]          = { "JetBrainsMono-Regular:size=12"};
 static const char dmenufont[]       = "JetBrainsMono-Regular:size=12";
 
 /* colors */
-static const char col_gray3[]       = "#E4E3E1"; /* unselected text */
-static const char col_gray1[]       = "#312C2B"; /* unselected bg color */
-static const char col_gray2[]       = "#2D2A2E"; /* unselected border color */
-static const char col_gray4[]       = "#1F1E1C"; /* selected text */
-static const char col_cyan[]        = "#85DAD2"; /* selected background color */
-static const char col_sel_border[]  = "#ffffff"; /* selected border color */
+static const char col_gray3[]       = "#CDD6F4"; /* unselected text */
+static const char col_gray1[]       = "#1E1E2E"; /* unselected bg color */
+static const char col_gray2[]       = "#45475A"; /* unselected border color */
+static const char col_gray4[]       = "#1E1E2E"; /* selected text */
+static const char col_cyan[]        = "#CDD6F4"; /* selected background color */
+static const char col_sel_border[]  = "#94E2D5"; /* selected border color */
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
