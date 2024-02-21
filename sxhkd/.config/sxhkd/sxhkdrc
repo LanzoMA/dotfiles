@@ -1,5 +1,5 @@
 # Lock PC
-super + l
+super + shift + l
     slock
 
 # Increase/Decrease Volume
@@ -10,21 +10,27 @@ super + l
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle
 
+super + s
+    flameshot gui
+
 # Take screenshot and save to clipboard
 super + shift + s
     flameshot gui -c
 
 super + w 
-    firefox
+    $BROWSER
 
 super + e
-    alacritty -e "lf"
+    $TERMINAL -e "lf"
 
 super + v
     code
 
+super + g
+    gimp
+
 super + c
-    alacritty -e "calcurse"
+    $TERMINAL -e "calcurse"
 
 super + d 
-    alacritty -e "nvim" dox/vimwiki/index.md
+    $TERMINAL -e "nvim" dox/vimwiki/index.md
