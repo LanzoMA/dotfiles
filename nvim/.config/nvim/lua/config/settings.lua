@@ -26,4 +26,3 @@ opt.fileencoding = "utf8"
 opt.history = 1000
 opt.clipboard = unnamedplus
 
-

@@ -32,7 +32,7 @@ x = 0
 y = 0
 
 [font]
-size = 14
+size = 12
 
 [font.normal]
 family = "JetBrains Mono"

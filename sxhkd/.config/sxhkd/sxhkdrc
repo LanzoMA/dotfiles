@@ -10,6 +10,12 @@ super + shift + l
 XF86AudioMute
     pactl set-sink-mute @DEFAULT_SINK@ toggle
 
+XF86MonBrightnessUp
+    brillo -q -A 5
+
+XF86MonBrightnessDown
+    brillo -q -U 5
+
 super + s
     flameshot gui
 
@@ -23,9 +29,6 @@ super + w
 super + e
     $TERMINAL -e "lf"
 
-super + v
-    code
-
 super + g
     gimp
 
@@ -34,3 +37,9 @@ super + c
 
 super + d 
     $TERMINAL -e "nvim" dox/vimwiki/index.md
+
+super + v
+    code
+
+super + a
+    $HOME/dl/android-studio/bin/studio.sh

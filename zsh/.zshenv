@@ -9,3 +9,4 @@ export VISUAL="nvim"
 
 export BROWSER="firefox"
 export TERMINAL="st"
+export BRIGHTNESS="/sys/class/backlight/intel_backlight/brightness"

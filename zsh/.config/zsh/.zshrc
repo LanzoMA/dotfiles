@@ -16,3 +16,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # Zsh Aliases
 source $ZDOTDIR/aliases.sh
+
+export PATH="$PATH:$HOME/dl/flutter/bin"

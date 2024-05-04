@@ -17,7 +17,7 @@ static const char col_gray1[]       = "#1E1E2E"; /* unselected bg color */
 static const char col_gray2[]       = "#45475A"; /* unselected border color */
 static const char col_gray4[]       = "#1E1E2E"; /* selected text */
 static const char col_cyan[]        = "#CDD6F4"; /* selected background color */
-static const char col_sel_border[]  = "#94E2D5"; /* selected border color */
+static const char col_sel_border[]  = "#CDD6F4"; /* selected border color */
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
