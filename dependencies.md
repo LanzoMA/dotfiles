@@ -3,12 +3,11 @@
 ```Shell
 sudo pacman -Syu
 
-sudo pacman -S git stow
-sudo pacman -S neofetch zathura neovim alacritty firefox htop
+sudo pacman -S zathura alacritty firefox
+sudo pacman -S neofetch neovim htop git stow tmux man
 sudo pacman -S sxhkd xwallpaper
 sudo pacman -S zsh zsh-completions zsh-syntax-highlighting
 chsh -s $(which zsh)
-sudo pacman -S tmux
 sudo pacman -S linux-headers
 sudo pacman -S lf mpv gimp libreoffice
 sudo pacman -S hyprland hyprpaper wofi waybar
